@@ -1,0 +1,55 @@
+{
+  "categories": [
+    {
+      "name": "Writing",
+      "prompts": [
+        {
+          "id": "write-article",
+          "title": "Article Writer",
+          "content": "Write a well-structured article about [topic]. Include an engaging introduction, clear main points, and a conclusion.",
+          "tags": ["writing", "article", "content"]
+        },
+        {
+          "id": "email-professional",
+          "title": "Professional Email",
+          "content": "Write a professional email about [topic]. Maintain a courteous and formal tone.",
+          "tags": ["email", "business", "professional"]
+        }
+      ]
+    },
+    {
+      "name": "Programming",
+      "prompts": [
+        {
+          "id": "code-review",
+          "title": "Code Review",
+          "content": "Review this code and suggest improvements for better performance, readability, and maintainability: [code]",
+          "tags": ["programming", "review", "optimization"]
+        },
+        {
+          "id": "debug-help",
+          "title": "Debug Assistant",
+          "content": "Help me debug this code. Here's the error message and code snippet: [error] [code]",
+          "tags": ["programming", "debugging", "troubleshooting"]
+        }
+      ]
+    },
+    {
+      "name": "Analysis",
+      "prompts": [
+        {
+          "id": "data-analysis",
+          "title": "Data Analyzer",
+          "content": "Analyze this dataset and provide key insights: [data]",
+          "tags": ["analysis", "data", "insights"]
+        },
+        {
+          "id": "summarize",
+          "title": "Text Summarizer",
+          "content": "Provide a concise summary of the following text while maintaining all key points: [text]",
+          "tags": ["summary", "analysis", "content"]
+        }
+      ]
+    }
+  ]
+}
